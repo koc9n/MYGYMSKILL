@@ -1,3 +1,5 @@
-<p>
-  exercise-list works!
-</p>
+<ul>
+  <li *ngFor="let item of exercises">
+    <app-exercise [exercise]="item"></app-exercise>
+  </li>
+</ul>
