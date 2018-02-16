@@ -12,7 +12,7 @@ export class ExerciseListComponent implements OnInit {
         id: 1,
         name: 'DB press',
         description: '',
-        photolinks: []
+        photolinks: ['http://www.fitnessandpower.com/wp-content/uploads/2016/12/dumbbell-bench-press.jpg']
       },
       {
         id: 2,

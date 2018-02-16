@@ -1,6 +1,7 @@
-<p>
-  {{exercise.name}}
-</p>
-<p>
-  {{exercise.desc}}
-</p>
+<div class="card card-body">
+  <h4 class="ard-title">{{exercise.name}}</h4>
+  <p class="card-text">{{exercise.desc}}</p>
+  <div class="flex-row">
+    <img *ngFor="let item of exercise.photolinks" src="{{item}}"/>
+  </div>
+</div>
