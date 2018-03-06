@@ -1,27 +1,22 @@
-# MYGYMSKILL
+# MYGYMSKILL Technical requirements
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
+## Exercises management/learning
+### user
+1. Find exercises by **name**, **description**, **muscle involved**, **muscles group**
+2. Propose exercise (**name**, **description**, **muscle involved**, **muscles group**, **photos**), notify admin.
 
-## Development server
+### admin
+3. Show/Approve/Decline proposed exercise, notify user.
+4. Add/Edit/Delete exercise.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Creating training template (plan for training - ordered list with exercises)
 
-## Code scaffolding
+## create program for one week (list of training templates)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Ability to record exercises, start-finish training, start-finish exercise. after finish training store recorded data to training history.
 
-## Build
+## Meals management, calories, servings time etc..
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Sleeping controller
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## provide search in history of sleeping, meals, trainings with graphics.
