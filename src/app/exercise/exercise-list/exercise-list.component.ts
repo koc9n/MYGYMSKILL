@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Exercise} from '../exercise';
+import {Exercise} from '../shared/exercise';
 
 @Component({
   selector: 'app-exercise-list',
@@ -8,24 +8,7 @@ import {Exercise} from '../exercise';
 })
 export class ExerciseListComponent implements OnInit {
   exercises: Exercise[] = [
-      {
-        id: 1,
-        name: 'DB press',
-        description: '',
-        photolinks: ['http://www.fitnessandpower.com/wp-content/uploads/2016/12/dumbbell-bench-press.jpg']
-      },
-      {
-        id: 2,
-        name: 'BB press',
-        description: '',
-        photolinks: []
-      },
-      {
-        id: 3,
-        name: 'BB biceps curl',
-        description: '',
-        photolinks: []
-      }
+      
     ];
 
   constructor() {

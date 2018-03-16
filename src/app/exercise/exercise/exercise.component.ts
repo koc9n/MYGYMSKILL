@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {Exercise} from '../exercise';
+import {MatCardModule, MatCheckboxModule} from '@angular/material';
+
+import {Exercise} from '../shared/exercise';
 
 @Component({
   selector: 'app-exercise',

@@ -1,7 +1,5 @@
-<div class="card card-body">
-  <h4 class="ard-title">{{exercise.name}}</h4>
-  <p class="card-text">{{exercise.desc}}</p>
-  <div class="flex-row">
-    <img *ngFor="let item of exercise.photolinks" src="{{item}}"/>
-  </div>
-</div>
+<mat-card>
+  <mat-card-title>{{exercise.name}}</mat-card-title>
+  <mat-card-subtitle>{{exercise.desc}}</mat-card-subtitle>
+  <img *ngFor="let item of exercise.photolinks" src="{{item}}" mat-card-avatar/>
+</mat-card>
