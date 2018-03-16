@@ -1,6 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {MatCardModule, MatCheckboxModule} from '@angular/material';
-
 import {Exercise} from '../shared/exercise';
 
 @Component({

@@ -1,5 +1,8 @@
-<ul class="list-group">
-  <li class="list-group-item" *ngFor="let item of exercises">
-    <app-exercise [exercise]="item"></app-exercise>
-  </li>
-</ul>
+<div>
+  <div >
+
+  </div>
+</div>
+<mat-list>
+  <app-exercise [exercise]="item" *ngFor="let item of exercises"></app-exercise>
+</mat-list>
