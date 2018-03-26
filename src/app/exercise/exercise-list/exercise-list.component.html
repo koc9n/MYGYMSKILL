@@ -1,8 +1,5 @@
-<div>
-  <div >
-
-  </div>
+<div *ngFor="let item of exercises">
+  <br>
+  <app-exercise [exercise]="item"></app-exercise>
 </div>
-<mat-list>
-  <app-exercise [exercise]="item" *ngFor="let item of exercises"></app-exercise>
-</mat-list>
+

@@ -1,14 +1,16 @@
-<mat-list-item>
-  <img matListAvatar src="{{exercise.photolinks[0]}}" alt="...">
-  <h3 matLine> {{exercise.name}} </h3>
-  <p matLine>
-    <span> {{exercise.desc}} </span>
-    <span>
-      <mat-grid-list cols="2" rowHeight="2:1">
-        <mat-grid-tile *ngFor="let link of exercise.photolinks">
-          <img src="{{link}}"/>
-        </mat-grid-tile>
-      </mat-grid-list>
-    </span>
-  </p>
-</mat-list-item>
+<mat-card>
+  <mat-card-header>
+    <div mat-card-avatar></div>
+    <mat-card-title>{{exercise.name}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src="{{exercise.photolinks[0]}}" alt="photo">
+  <mat-card-content>
+    <p>
+      {{exercise.desc}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
