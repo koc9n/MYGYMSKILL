@@ -1,0 +1,18 @@
+<h1>Login</h1>
+
+<div class="alert alert-danger" role="alert" *ngIf="message">
+  {{ message }}
+</div>
+
+<form class="form-inline">
+  <mat-form-field>
+    <input matInput placeholder="User name" class="form-control" name="username" #username>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Password" class="form-control" type="password" name="password" #password>
+  </mat-form-field>
+
+  <button mat-button (click)="login(username.value, password.value)">
+    Submit
+  </button>
+</form>
