@@ -7,15 +7,15 @@
       </mat-card-header>
       <mat-card-content align="center">
         <form class="form-container">
-          <div class="alert alert-danger" role="alert" *ngIf="message">
-            {{ message }}
-          </div>
           <mat-form-field>
             <input matInput placeholder="User name" name="username" #username>
           </mat-form-field>
           <mat-form-field>
             <input matInput placeholder="Password" type="password" name="password" #password>
           </mat-form-field>
+          <div class="alert alert-danger" role="alert" *ngIf="message">
+            {{ message }}
+          </div>
         </form>
       </mat-card-content>
       <mat-card-actions align="center">
